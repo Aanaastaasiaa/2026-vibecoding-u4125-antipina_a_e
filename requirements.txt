@@ -1,0 +1,9 @@
+# Зависимости бота (установка: pip install -r requirements.txt)
+# [job-queue] нужен для ежедневного планировщика на основе JobQueue.
+python-telegram-bot[job-queue]>=21.0
+python-dotenv>=1.0.0
+pandas==2.1.4
+requests>=2.31.0
+
+# sqlite3 входит в стандартную библиотеку Python — отдельно устанавливать не нужно.
+# В коде используется модуль: import sqlite3
