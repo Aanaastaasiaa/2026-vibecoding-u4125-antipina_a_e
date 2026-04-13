@@ -4,6 +4,7 @@ python-telegram-bot[job-queue]>=21.0
 python-dotenv>=1.0.0
 pandas>=2.2.0
 requests>=2.31.0
+Flask>=3.0.0
 
 # sqlite3 входит в стандартную библиотеку Python — отдельно устанавливать не нужно.
 # В коде используется модуль: import sqlite3
