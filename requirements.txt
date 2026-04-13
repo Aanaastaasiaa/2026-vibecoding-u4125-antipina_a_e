@@ -2,7 +2,7 @@
 # [job-queue] нужен для ежедневного планировщика на основе JobQueue.
 python-telegram-bot[job-queue]>=21.0
 python-dotenv>=1.0.0
-pandas==2.1.4
+pandas>=2.2.0
 requests>=2.31.0
 
 # sqlite3 входит в стандартную библиотеку Python — отдельно устанавливать не нужно.
